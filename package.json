@@ -1,0 +1,42 @@
+{
+  "name": "Rick-SDC-Proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -d --watch",
+    "start": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamthriller/Rick-SDC-Proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teamthriller/Rick-SDC-Proxy/issues"
+  },
+  "homepage": "https://github.com/teamthriller/Rick-SDC-Proxy#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.5",
+    "cors": "^2.8.5",
+    "css-loader": "^2.1.1",
+    "http-proxy": "^1.17.0",
+    "newrelic": "^5.7.0",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.11",
+    "redis": "^2.8.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.1"
+  }
+}
