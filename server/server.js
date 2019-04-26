@@ -12,7 +12,7 @@ const client = redis.createClient();
 
 
 app.use(cors());
-app.use(express.static(path.join(__dirname, "../public")));
+app.use(express.static(path.join(__dirname, "../ian-header-component-new/public")));
 
 client.on('connect', function() {
   console.log('Redis client connected');
