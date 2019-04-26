@@ -6,7 +6,7 @@ const port = process.env.PORT || 3200;
 const path = require("path");
 const cors = require("cors");
 const httpProxy = require("http-proxy");
-const db = require('../ian-header-component/database/Rick-db/mongoConnection')
+const db = require('../ian-header-component-new/database/Rick-db/mongoConnection')
 const proxy = httpProxy.createProxyServer({});
 const client = redis.createClient();
 
